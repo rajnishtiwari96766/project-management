@@ -1,0 +1,62 @@
+header{
+    background-color: #186CA3;
+    color: antiquewhite;
+    height: 32px;
+    width: auto;
+    padding: 14px;
+    margin: -5px;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    
+}
+
+.container{
+    /* padding-right: 800px; */
+    width: 80%;
+    margin: 30px;
+}
+.menu{
+    /* padding-right: 539px; */
+    width: 20%;
+    background-color: grey;
+    padding: 5%;
+    height: 100vh;
+    margin: 5px;
+    margin-left: -5px;
+}
+
+.button{
+    background-color: rgb(86 226 86);
+    border-radius: 10px;
+}
+.text{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.project-card{
+
+    background-color: grey;
+    width: 266px;
+    height: 145px;
+    margin: 25px;
+    padding: 5px;
+    border-radius: 8px;
+    color: aliceblue;
+}
+.project-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+

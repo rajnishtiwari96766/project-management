@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    padding: 10%;
+}
+
+.submit-btn{
+    background-color: orange;
+    color: aliceblue;
+    padding: 2%;
+    font-size: 22px;
+    margin-top: 10px;
+    border: 0;
+    cursor: pointer;
+}
